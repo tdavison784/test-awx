@@ -1,0 +1,10 @@
+---
+-
+  hosts: all
+  become:  yes
+  become_user: tom
+  tasks:
+    -
+      name: debug ansible facts
+      debug:
+        var: ansible_facts
