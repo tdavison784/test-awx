@@ -6,7 +6,7 @@
     -
       name: create new user
       user:
-        state: absent 
+        state: present
         name: pwtwd35
         uid: 1991
         groups: wheel
