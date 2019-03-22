@@ -8,5 +8,5 @@
       name: start dmgr
       ibm_manager:
         state: start
-	profile: Dmgr01
-	path: /opt/WebSphere/AppServer
+        profile: Dmgr01
+        path: /opt/WebSphere/AppServer
