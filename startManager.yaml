@@ -1,0 +1,12 @@
+---
+-
+  hosts: all
+  become: yes
+  become_user: wsadmin
+  tasks:
+    -
+      name: start dmgr
+      ibm_manager:
+        state: start
+	profile: Dmgr01
+	path: /opt/WebSphere/AppServer
